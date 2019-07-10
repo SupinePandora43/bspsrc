@@ -1,4 +1,4 @@
-BSPSource
+BSPSource [![Build Status](https://travis-ci.com/SupinePandora43/bspsrc.svg?branch=master)](https://travis-ci.com/SupinePandora43/bspsrc)
 =========
 
 BSPSource is a map decompiler for [Source engine](http://developer.valvesoftware.com/wiki/Source) maps, written in Java.
