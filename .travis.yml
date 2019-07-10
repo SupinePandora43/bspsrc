@@ -10,6 +10,7 @@ branches:
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
+  skip_cleanup: true
   file_glob: true
   file: ./target/bspsrc*
   name: $(date +'%Y.%m.%d.%H:%M.%S')
