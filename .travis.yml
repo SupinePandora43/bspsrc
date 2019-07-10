@@ -1,12 +1,9 @@
 language: java
 
-after_script:
-- ls ./target
-
 branches:
   only:
     - master
-
+before_deploy: export TRAVIS_TAG=$(date +'%Y.%m.%d.%H:%M.%S')
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
