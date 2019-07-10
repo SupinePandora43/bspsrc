@@ -1,4 +1,4 @@
 language: java
 
 after_script:
-- ls
+- ls ./target
