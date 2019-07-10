@@ -3,7 +3,7 @@ language: java
 branches:
   only:
     - master
-before_deploy: export TRAVIS_TAG=$(date +'%Y.%m.%d.%H:%M.%S')
+before_deploy: export TRAVIS_TAG=$(date +'%Y_%m_%d_%H_%M_%S')
 deploy:
   provider: releases
   api_key: $GITHUB_TOKEN
